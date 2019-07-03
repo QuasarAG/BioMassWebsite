@@ -1,0 +1,61 @@
+
+@font-face
+{
+    font-family: 'alterna';
+    src: url(../../fonts/alterna.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body
+{
+    background-color: #000000;
+    margin: 0;
+    /*overflow: auto;*/
+  /*  height: 100%;
+    width: 100%;*/
+
+}
+
+#block_page
+{
+    width: 725px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column; 
+}
+
+
+/*SECTION*/
+
+section
+{
+    /*position: absolute;*/
+    display: flex;
+    flex :1.5;
+    /*border: 3px solid white;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    /*margin-bottom: 15px;*/
+    padding: 3px 8px 0px 8px;
+    width: 100%;
+    /*flex: 1;*/
+    background-color: white;
+}
+
+
+

@@ -1,0 +1,66 @@
+
+@font-face
+{
+    font-family: 'alterna';
+    src: url(../../fonts/alterna.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body
+{
+    background-color: #000000;
+    margin: 0;
+}
+
+
+#block_page
+{
+    width: 725px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column; 
+}
+
+
+section
+{
+    position: relative;
+
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    background-color: gray;
+
+}
+h2
+{
+    position: relative;
+    margin-left: 0px;
+}
+
+h1, p
+{
+    color: white;
+}
+
+#signup_form_container
+{
+    position: relative;
+    margin-left: 5px;
+    flex-direction: row;
+}
+
+#signuperror
+{
+    color:yellow;
+}
+
+#signupsuccess
+{
+    color:green;
+}

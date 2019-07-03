@@ -1,0 +1,141 @@
+
+@font-face
+{
+    font-family: 'alterna';
+    src: url(../../fonts/alterna.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body
+{
+    background-color: #000000;
+    margin: 0;
+}
+
+section
+{
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+#block_page
+{
+    width: 725px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column; 
+}
+
+#video_section
+{
+    padding: 10px 0 10px 0;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.video_frame
+{
+    margin: auto;
+}
+
+
+
+#right_arrow 
+{
+    position: absolute;
+    height:90px;
+    width:35px;
+    border-radius: 0 90px 90px 0;
+    background:green;
+
+    right: 0;
+}
+
+#left_arrow 
+{
+    position: absolute;
+
+    height:90px;
+    width:35px;
+    border-radius: 90px 0 0 90px;
+    background:green;
+    left: 0;
+}
+
+#right_arrow:hover, #left_arrow:hover
+{
+    cursor: pointer;
+}
+
+
+#screenshot_section
+{   
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px 10px 10px 10px; 
+    
+
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+.screenshot
+{
+    height: 148px;
+    width: 220px;
+    margin: 10px 0px 0px 0px;
+    border: 2.0px solid black;
+}
+
+.screenshot img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.screenshot:hover
+{
+    border-color:  blue;
+}
+
+
+
+/*OVERLAY*/
+#overlay 
+{
+    display : none; /* Par défaut, on cache l'overlay */
+    position: absolute;
+    width: 100%; 
+    height: 766px;
+    text-align: center; /* Pour centrer l'image que l'overlay contiendra */
+
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+#overlay img 
+{
+    position: absolute;
+    width: 980px;
+    height: 552px;
+
+    margin-left: -490px;
+    margin-top: 50px;
+
+    border: 3.0px solid white;
+}
+
